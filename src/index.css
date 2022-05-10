@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,80 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.footerNav {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 25% 0 25%;  
+}
+
+h2, p {
+  color: whitesmoke;
+}
+
+.about-me img {
+  width: 30%;
+  height: auto;
+  float: right;
+  margin-left: 10px;
+}
+
+.work {
+  padding: 1%;
+  justify-content: center;
+  width: 100%;
+}
+
+.work-examples {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.example-sites {
+  width: 48%;
+  margin: 1% 1% 0 1%;
+}
+
+.site-pics {
+  width: 100%;
+  height: 70%;
+}
+
+#first-page {
+  width: 100%;
+}
+
+.contact {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.contact h1 {
+  color: whitesmoke;
+}
+
+label {
+  color: whitesmoke;
+  margin-top: .5%;
+}
+
+.btn {
+  margin-top: 2%;
 }
